@@ -1,3 +1,59 @@
+body{
+    padding-top: 66px;
+}
+/* navbar style */
+.navbar-light .navbar-nav .nav-link {
+    color: #00000080;
+    font-size: 1.3em;
+    font-weight: 500;
+    border: 1px solid #0d6dfd33;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    background: #c5c2c2;
+    color: #000;
+}
+/* banner style  */
+.banner{
+    background: #0D6EFD;
+}
+.btn{
+    border: 1px solid #E02C6D;
+    color: rgb(0, 0, 0);
+}
+.btn:hover{
+    background: #E02C6D;
+    color: #fff;
+}
+.kick img{
+    transition: 0.3s linear
+}
+.kick:hover img{
+    transform: translate(15px, 10px);
+}
+
+/* top players style  */
+.player{
+    overflow: hidden;
+}
+.player img{
+    transition: 0.4s linear;
+}
+.player:hover img{
+    transform: scale(1.1, 1.1);
+}
+.trophy{
+    transition: 0.3s linear;
+}
+
+/* awards style  */
+.award:hover .trophy{
+    transform: translateY(-15px);
+}
+.award:hover h5{
+    color: #0D6EFD;
+}
+
+/* footer style  */
 footer .bi{
     color: #E02C6D;
     padding: 5px 8px;
@@ -6,7 +62,7 @@ footer .bi{
     border: 1px solid #E02C6D;
     transition: 0.3s linear;
 }
-footer .bi:hover{
+footer i:hover{
     color: #fff;
     background: #E02C6D;
 }
