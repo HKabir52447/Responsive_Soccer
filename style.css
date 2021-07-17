@@ -1,0 +1,12 @@
+footer .bi{
+    color: #E02C6D;
+    padding: 5px 8px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    border: 1px solid #E02C6D;
+    transition: 0.3s linear;
+}
+footer .bi:hover{
+    color: #fff;
+    background: #E02C6D;
+}
